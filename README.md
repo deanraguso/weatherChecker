@@ -4,6 +4,7 @@
 
 #   Dependency
 - prompt-sync if using node
+- node-fetch if using node
 
 ## Aim
 A basic weather application, utilizing free online API from Open Weather Map https://openweathermap.org/api website. Integratable with future websites that I may build, presented with ASCII art to console.
@@ -16,3 +17,7 @@ A basic weather application, utilizing free online API from Open Weather Map htt
 5. Send the HTML request.
 6. Recieve the HTML request data, and store appropriately.
 7. Use the response to display meaningful data to user.
+
+## To Do
+1. Add ASCII art to the console output.
+   
