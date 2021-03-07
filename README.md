@@ -4,6 +4,7 @@
 
 #   Dependency
 - prompt-sync if using node
+- xmlhttprequest
 
 ## Aim
 A basic weather application, utilizing free online API from Open Weather Map https://openweathermap.org/api website. Integratable with future websites that I may build, presented with ASCII art to console.
