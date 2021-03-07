@@ -2,8 +2,11 @@
 
 # Weather Checker
 
+#   Dependency
+- prompt-sync if using node
+
 ## Aim
-A basic weather application, utilizing free online API from Open Weather website. Integratable with future websites that I may build, presented with ASCII art to console.
+A basic weather application, utilizing free online API from Open Weather Map https://openweathermap.org/api website. Integratable with future websites that I may build, presented with ASCII art to console.
 
 ## Pseudocode
 1. Ask user for their city or location of choice.
