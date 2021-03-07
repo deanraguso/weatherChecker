@@ -13,10 +13,9 @@ const prelim = "&appid="
 const APIkey = "9f49ec1e09fbf705c91e6c289950c78b";
 let user_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 user_URL += city + "," + state + prelim + APIkey;
-console.log(user_URL);
 
 //Send the HTTP request through to the API
-let response = fetch(user_URL, {
+let res_obj = fetch(user_URL, {
     "method": "GET",
     "headers": {
         "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
@@ -25,6 +24,11 @@ let response = fetch(user_URL, {
 }).then(function (response) {
         return response.json();
 }).then(function (myJson){
-    console.log(myJson);
+    //Print useful information to user
+    let celsius = myJson.main.temp - 273;
+    celsius = Math.round(celsius);
+    let condition = myJson.weather[0].main.toLocaleLowerCase();
+    console.log(`${celsius} degrees celsius, with ${condition}.`);
 });
+
 
