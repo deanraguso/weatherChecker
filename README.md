@@ -2,6 +2,26 @@
 
 # Weather Checker
 
+                       -yy-                       
+                       :MM:                       
+            .-         :MM:         ..            
+           /MMh-        ``        .yMM/           
+            -hMM/   -+syhhys+-   /MMh-            
+              -. .sNMMdyyyhdMMNs. --              
+                sMMh:`      `/dMMo                
+               yMM/            /MMs               
+      `.....  :MM+              oMM-  .....       
+      :MMMMM. +MM-              -MM+ .MMMMM-      
+      `.....  :MM+              oMM-  .....`      
+               yMM/            /MMy               
+                sMMh:       `/dMMo                
+              -. .sNMMdyssydMMNs. ..              
+            -hMM/   -+syhhys+-   +MMy.            
+           +MMy.        ``        -hMM/           
+            -.         /MM:         -.            
+                       /MM:                       
+                       -yy.       
+
 #   Dependency
 - prompt-sync if using node
 - node-fetch if using node
